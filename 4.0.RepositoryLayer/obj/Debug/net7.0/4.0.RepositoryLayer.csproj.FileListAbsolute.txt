@@ -1,0 +1,15 @@
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\bin\Debug\net7.0\4.0.RepositoryLayer.deps.json
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\bin\Debug\net7.0\4.0.RepositoryLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\bin\Debug\net7.0\4.0.RepositoryLayer.pdb
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.AssemblyInfoInputs.cache
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.AssemblyInfo.cs
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\refint\4.0.RepositoryLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.pdb
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\ref\4.0.RepositoryLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\bin\Debug\net7.0\0.0.DataTransferLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\bin\Debug\net7.0\0.0.DataTransferLayer.pdb
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.csproj.AssemblyReference.cache
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\4.0.RepositoryLayer\obj\Debug\net7.0\4.0.RepositoryLayer.csproj.CopyComplete

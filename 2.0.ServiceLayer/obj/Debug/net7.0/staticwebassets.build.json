@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KXm5C+rlBczncdx6T4m2UB0nRxgpeGHBtBf2QPUYoIQ=",
+  "Source": "2.0.ServiceLayer",
+  "BasePath": "_content/2.0.ServiceLayer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
