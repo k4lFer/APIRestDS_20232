@@ -37,7 +37,17 @@ namespace _5._0.DataAccessLayer.Query
            // throw new NotImplementedException();
         }
 
-        public List<DtoUser> getAll()
+        public int insert(DtoUser dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int update(DtoUser dto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<DtoUser> getAll(string pk)
         {
             using DataBaseContext dbc = new();
             List<User> users = dbc.Users.ToList();
@@ -46,6 +56,7 @@ namespace _5._0.DataAccessLayer.Query
             foreach (User user in users)
             {
                 DtoUser dtoUser = new();
+
                 dtoUser.idUser = user.idUser;
                 dtoUser.userName = user.userName;
                 dtoUser.firstName = user.firstName;
@@ -59,16 +70,7 @@ namespace _5._0.DataAccessLayer.Query
             }
 
             return dtoUsers;
-        }
 
-        public int insert(DtoUser dto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int update(DtoUser dto)
-        {
-            throw new NotImplementedException();
         }
     }
 }

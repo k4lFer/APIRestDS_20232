@@ -10,7 +10,7 @@ namespace _4._0.RepositoryLayer.Generic
         public int delete(string id);
 
         public Dto getById(string pk);
-        //public List<DtoUser> getAll(string );
+        public List<Dto> getAll(string pk);
 
 
     }

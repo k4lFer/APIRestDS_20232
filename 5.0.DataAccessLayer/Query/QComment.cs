@@ -10,6 +10,11 @@ namespace _5._0.DataAccessLayer.Query
             throw new NotImplementedException();
         }
 
+        public List<DtoComment> getAll(string pk)
+        {
+            throw new NotImplementedException();
+        }
+
         public DtoComment getById(string pk)
         {
             throw new NotImplementedException();

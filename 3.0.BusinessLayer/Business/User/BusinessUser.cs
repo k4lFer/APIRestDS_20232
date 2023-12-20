@@ -9,5 +9,10 @@ namespace _3._0.BusinessLayer.Business.User
         {
             return repoUser.getById(pk);
         }
+
+        public List<DtoUser> getAll(string pk)
+        {
+            return repoUser.getAll(pk);
+        }
     }
 }

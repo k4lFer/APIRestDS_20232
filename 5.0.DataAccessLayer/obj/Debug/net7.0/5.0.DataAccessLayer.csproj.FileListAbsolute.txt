@@ -15,3 +15,4 @@ D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRes
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\5.0.DataAccessLayer\bin\Debug\net7.0\4.0.RepositoryLayer.pdb
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.csproj.AssemblyReference.cache
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.csproj.CopyComplete
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.sourcelink.json

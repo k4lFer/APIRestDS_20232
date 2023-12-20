@@ -13,26 +13,19 @@ namespace _2._0.ServiceLayer.Controllers
         [Route("[action]")]
         public ActionResult<List<DtoUser>> GetAll(string idUser)
         {
-            /*BusinessUser businessUser = new();
-            SoUser soUser = new();
-
-            soUser.dtoUser = businessUser.getById(idUser);
-            return soUser;*/
-
-            /* BusinessUser businessUser = new();
+          
+             BusinessUser businessUser = new();
              SoUser soUser = new();
 
-             QUser qUser = new();
-             List<DtoUser> allUsers = qUser.getAll();
+             //QUser qUser = new();
+             //List<DtoUser> allUsers = qUser.getAll();
 
-             soUser.dtoUser = businessUser.getById(idUser);
+             //soUser.dtoUser = businessUser.getById(idUser);
+             soUser.allUsers = businessUser.getAll(idUser);
+             //List<DtoUser> allUsers = businessUser.getAll(idUser);
 
-             return soUser;*/
-            /*SoUser soUser = new();*/
-
-            QUser qUser = new();
-            List<DtoUser> allUsers = qUser.getAll();
-            return allUsers;
+            return soUser.allUsers;
+        
         }
     }
 }

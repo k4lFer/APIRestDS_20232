@@ -19,3 +19,4 @@ D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRes
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\3.0.BusinessLayer\obj\Debug\net7.0\3.0.BusinessLayer.csproj.CopyComplete
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\3.0.BusinessLayer\bin\Debug\net7.0\5.0.DataAccessLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\3.0.BusinessLayer\bin\Debug\net7.0\5.0.DataAccessLayer.pdb
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS20232\3.0.BusinessLayer\obj\Debug\net7.0\3.0.BusinessLayer.sourcelink.json
