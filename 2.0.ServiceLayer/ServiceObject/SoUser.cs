@@ -7,5 +7,8 @@ namespace _2._0.ServiceLayer.ServiceObject
         public DtoUser dtoUser {  get; set; }
         public List<DtoUser> allUsers { get; set; }
 
+        public DtoUser InsertUser { get; set; }
+
+        public DtoUser DeleteUser { get; set; } 
     }
 }

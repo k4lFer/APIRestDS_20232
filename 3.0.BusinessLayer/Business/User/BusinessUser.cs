@@ -10,9 +10,17 @@ namespace _3._0.BusinessLayer.Business.User
             return repoUser.getById(pk);
         }
 
-        public List<DtoUser> getAll(string pk)
+        public List<DtoUser> getAll()
         {
-            return repoUser.getAll(pk);
+            return repoUser.getAll();
+        }
+        public DtoUser insert(DtoUser dto)
+        {
+            return repoUser.insert(dto);
+        }
+        public DtoUser delete(string id)
+        {
+            return repoUser.delete(id);
         }
     }
 }
