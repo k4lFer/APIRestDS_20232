@@ -5,7 +5,7 @@ namespace _5._0.DataAccessLayer.Query
 {
     public class QComment : RepoComment
     {
-        public DtoComment delete(string id)
+        public int delete(string id)
         {
             throw new NotImplementedException();
         }
@@ -15,7 +15,7 @@ namespace _5._0.DataAccessLayer.Query
             throw new NotImplementedException();
         }
 
-        public DtoComment insert(DtoComment dto)
+        public int insert(DtoComment dto)
         {
             throw new NotImplementedException();
         }

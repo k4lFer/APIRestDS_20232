@@ -53,7 +53,7 @@ namespace _2._0.ServiceLayer.Controllers
             return _soUser;
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Route("[action]")]
         public ActionResult<SoUser> DeleteUser(string id)
         {

@@ -14,11 +14,11 @@ namespace _3._0.BusinessLayer.Business.User
         {
             return repoUser.getAll();
         }
-        public DtoUser insert(DtoUser dto)
+        public int insert(DtoUser dto)
         {
             return repoUser.insert(dto);
         }
-        public DtoUser delete(string id)
+        public int delete(string id)
         {
             return repoUser.delete(id);
         }

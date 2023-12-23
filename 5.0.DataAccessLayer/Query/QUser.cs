@@ -8,7 +8,7 @@ namespace _5._0.DataAccessLayer.Query
 {
     public class QUser : RepoUser
     {
-        public DtoUser delete(string id)
+        public int delete(string id)
         {
             using DataBaseContext dbc = new();
             User user = dbc.Users.Find(id);
@@ -18,8 +18,10 @@ namespace _5._0.DataAccessLayer.Query
                 dbc.Users.Remove(user);
                 dbc.SaveChanges();
 
+                return 1;
             }
-            return null;
+
+            return 0;
           
         }
 
@@ -48,30 +50,35 @@ namespace _5._0.DataAccessLayer.Query
            // throw new NotImplementedException();
         }
 
-        public DtoUser insert(DtoUser dto)
+        public int insert(DtoUser dto)
         {
             using DataBaseContext dbc = new();
 
-            User user = new()
+            if (dto is not null)
             {
-                idUser = Guid.NewGuid().ToString(),
+                User user = new()
+                {
+                    idUser = Guid.NewGuid().ToString(),
 
-                userName = dto.userName,
-                firstName = dto.firstName,
-                surName = dto.surName,
-                dni = dto.dni,
-                password = dto.password,
-                birthDate = dto.birthDate,
-                gender = dto.gender,
+                    userName = dto.userName,
+                    firstName = dto.firstName,
+                    surName = dto.surName,
+                    dni = dto.dni,
+                    password = dto.password,
+                    birthDate = dto.birthDate,
+                    gender = dto.gender,
 
-                registerDate = DateTime.Now, 
-                modificationDate = DateTime.Now 
-            };
+                    registerDate = DateTime.Now,
+                    modificationDate = DateTime.Now
+                };
 
-            dbc.Users.Add(user);
-            dbc.SaveChanges();
+                dbc.Users.Add(user);
+                dbc.SaveChanges();
 
-            return dto;
+                return 1;
+            }
+            return 0;
+
 
         }
 
