@@ -13,7 +13,7 @@ namespace _5._0.DataAccessLayer.Connection
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-7BSEMKS\\SQLEXPRESS;Database=dbcrud20231;User Id=N3kr;Password=@prkal3;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-83BGGDU\\SQLEXPRESS;Database=dbcrud20231;User Id=N3kr;Password=@prkal3;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
     }
