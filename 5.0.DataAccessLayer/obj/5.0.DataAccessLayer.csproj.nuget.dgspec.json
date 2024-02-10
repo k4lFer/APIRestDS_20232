@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj": {}
+    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
+    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj",
+        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj",
         "projectName": "0.0.DataTransferLayer",
-        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj",
+        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj",
         "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\obj\\",
+        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -60,18 +60,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj": {
+    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj",
+        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj",
         "projectName": "4.0.RepositoryLayer",
-        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj",
+        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\obj\\",
+        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
-                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj"
+              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
+                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj"
               }
             }
           }
@@ -124,18 +124,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj": {
+    "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj",
         "projectName": "5.0.DataAccessLayer",
-        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj",
+        "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\kalfe\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\5.0.DataAccessLayer\\obj\\",
+        "outputPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\5.0.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,11 +157,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
-                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj"
+              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj": {
+                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj"
               },
-              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj": {
-                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj"
+              "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj": {
+                "projectPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj"
               }
             }
           }
@@ -201,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

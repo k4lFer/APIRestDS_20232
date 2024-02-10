@@ -61,5 +61,14 @@ namespace _2._0.ServiceLayer.Controllers
 
             return _soUser;
         }
+
+        [HttpPut]
+        [Route("[action]")]
+        public ActionResult<SoUser> UpdateUser(DtoUser updateUser)
+        {
+            _soUser.UpdateUser = _businessUser.update(updateUser);
+
+            return _soUser;
+        }
     }
 }
