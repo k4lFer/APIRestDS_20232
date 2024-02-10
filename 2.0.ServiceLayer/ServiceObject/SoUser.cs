@@ -10,5 +10,6 @@ namespace _2._0.ServiceLayer.ServiceObject
         public int InsertUser { get; set; }
 
         public int DeleteUser { get; set; } 
+        public int UpdateUser { get; set; }
     }
 }

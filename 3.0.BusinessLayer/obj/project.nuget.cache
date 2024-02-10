@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+Slq4rtxba+J+96GfXfFlehWz+OxeEM1kfSxJXpewR9tf5AW9i7ReJoarAVR50U4vjcAejqde/dyikvAVq40Q==",
+  "dgSpecHash": "RFOjymF7YTiGMaxQqc70X79uzgtDnliDjq7nA20raefSA1Rj+9q69tfHnqeZ321Tohla+gqhkQ8k8BNXY3huyA==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS20232\\3.0.BusinessLayer\\3.0.BusinessLayer.csproj",
+  "projectFilePath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\3.0.BusinessLayer\\3.0.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kalfe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\kalfe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

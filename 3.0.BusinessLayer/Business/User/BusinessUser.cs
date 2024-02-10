@@ -22,5 +22,9 @@ namespace _3._0.BusinessLayer.Business.User
         {
             return repoUser.delete(id);
         }
+        public int update(DtoUser dto)
+        {
+            return repoUser.update(dto);
+        }
     }
 }
