@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ll9NRauXRU0mdGvVeqUFO3YygR/3bdIRGhlN1ljL5gLy294F4FczH7dLKsg2yno30Xdt5MT6l0T6Of3z29gv4g==",
+  "dgSpecHash": "Chaq9iGp0YK3xcfvqJd3UCUTA1RsDOoLO1DFobUX7L87rXPuL7GQNeFe3v2HV1MpHeW29d/DvlqqIC6oAthkCg==",
   "success": true,
   "projectFilePath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\3.0.BusinessLayer.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,10 @@
     "C:\\Users\\kalfe\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\kalfe\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\kalfe\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\kalfe\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\kalfe\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
   ],
   "logs": []
 }

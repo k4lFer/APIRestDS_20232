@@ -29,8 +29,8 @@ D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRes
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.AssemblyInfo.cs
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.csproj.CoreCompileInputs.cache
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.sourcelink.json
-D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.csproj.CopyComplete
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\refint\5.0.DataAccessLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.DataAccessLayer.pdb
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\ref\5.0.DataAccessLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\5.0.DataAccessLayer\obj\Debug\net7.0\5.0.Data.D16377CC.Up2Date

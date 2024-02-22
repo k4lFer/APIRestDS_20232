@@ -156,9 +156,9 @@ D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRes
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.2.0.ServiceLayer.props
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\staticwebassets.pack.json
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\scopedcss\bundle\2.0.ServiceLayer.styles.css
-D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.ServiceLayer.csproj.CopyComplete
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.ServiceLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\refint\2.0.ServiceLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.ServiceLayer.pdb
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.ServiceLayer.genruntimeconfig.cache
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\ref\2.0.ServiceLayer.dll
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.Serv.2F3E40E2.Up2Date
