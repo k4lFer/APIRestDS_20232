@@ -1,0 +1,99 @@
+
+
+    <!---
+    <mat-dialog-content>
+      <p>Update user details here.</p>
+      
+      <mat-form-field>
+        <mat-label>User Name</mat-label>
+        <input matInput [value]="data.userName" formControlName="userName">
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>First Name</mat-label>
+        <input matInput [value]="data.firstName" formControlName="firstName">
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Sur Name</mat-label>
+        <input matInput [value]="data.surName" formControlName="surName">
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>DNI</mat-label>
+        <input matInput [value]="data.dni" formControlName="dni">
+      </mat-form-field>
+      
+      
+      <mat-form-field>
+        <mat-label>Birth Date</mat-label>
+        <input matInput [matDatepicker]="picker" [value]="data.birthDate" formControlName="birthdate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Gender</mat-label>
+        <mat-select [value]="data.gender ? data.gender : ''" (selectionChange)="data.gender && (data.gender = $event.value)" formControlName="gender">
+          <mat-option value="true">Male</mat-option>
+          <mat-option value="false">Female</mat-option>
+        </mat-select>
+      </mat-form-field>
+    
+    </mat-dialog-content>
+
+    <mat-dialog-actions>
+        <button mat-raised-button color="primary"  type="submit">Update</button>
+        <button mat-button (click)="onNoClick()">No Thanks</button>
+      
+    </mat-dialog-actions>
+    
+  -->
+
+  <mat-dialog-content class="mb-5">
+    <h2 mat-dialog-title class="mb-2">Update User</h2>
+
+    <mat-form-field class="w-full flex flex-wrap">
+      <mat-label>User Name</mat-label>
+      <input matInput [(ngModel)]="data.userName" name="userName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full flex flex-wrap">
+      <mat-label>First Name</mat-label>
+      <input matInput [(ngModel)]="data.firstName" name="userName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full flex flex-wrap mb-2">
+      <mat-label>Sur Name</mat-label>
+      <input matInput [(ngModel)]="data.surName" name="userName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full flex flex-wrap">
+      <mat-label>N° Dni</mat-label>
+      <input matInput [(ngModel)]="data.dni" name="userName">
+    </mat-form-field>
+
+    <mat-form-field class="w-full flex flex-wrap">
+      <mat-label>Birth Date</mat-label>
+      <input matInput [(ngModel)]="data.birthDate" name="userName" type="date">
+    </mat-form-field>
+
+    <!--
+      <mat-form-field class="mb-2">
+      <mat-label>Gender</mat-label>
+      <mat-select formControlName="gender" required >
+        <mat-option [value]="true">Male</mat-option>
+        <mat-option [value]="false">Female</mat-option>
+      </mat-select>
+
+    </mat-form-field>
+  -->
+
+
+  
+  </mat-dialog-content>
+  <mat-dialog-actions >
+    <button mat-raised-button color="primary" class="mr-2 " [mat-dialog-close]="false" tabindex="-1">Cancel</button>
+    <button mat-raised-button color="warn" [mat-dialog-close]="{  }" tabindex="2" class="mr-2">Update</button>
+  </mat-dialog-actions>
+

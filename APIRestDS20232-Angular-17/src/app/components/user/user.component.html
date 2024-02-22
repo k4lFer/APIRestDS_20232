@@ -1,0 +1,78 @@
+
+
+
+  <table mat-table [dataSource]="UserList" class="mat-elevation-z8">
+
+        <!-- Id User Column -->
+    <!--<ng-container matColumnDef="idUser">
+      <th mat-header-cell *matHeaderCellDef> Id User </th>
+      <td mat-cell *matCellDef="let user"> {{ user.idUser }} </td>
+    </ng-container>
+  -->
+    <!-- User Name Column -->
+    <ng-container matColumnDef="userName">
+      <th mat-header-cell *matHeaderCellDef> User Name </th>
+      <td mat-cell *matCellDef="let user"> {{ user.userName }} </td>
+    </ng-container>
+
+    <!-- Password Column -->
+    <ng-container matColumnDef="password">
+      <th mat-header-cell *matHeaderCellDef> Password </th>
+      <td mat-cell *matCellDef="let user"> {{ user.password }} </td>
+    </ng-container> 
+
+    <!-- First Name Column -->
+    <ng-container matColumnDef="firstName">
+      <th mat-header-cell *matHeaderCellDef> First Name </th>
+      <td mat-cell *matCellDef="let user"> {{ user.firstName }} </td>
+    </ng-container>
+
+    <!-- Sur Name Column -->
+    <ng-container matColumnDef="surName">
+      <th mat-header-cell *matHeaderCellDef> Sur Name </th>
+      <td mat-cell *matCellDef="let user"> {{ user.surName }} </td>
+    </ng-container>  
+
+    <!-- N DNI Column -->
+    <ng-container matColumnDef="dni">
+      <th mat-header-cell *matHeaderCellDef> N DNI </th>
+      <td mat-cell *matCellDef="let user"> {{ user.dni }} </td>
+    </ng-container> 
+
+    <!-- Birth Date Column -->
+    <ng-container matColumnDef="birthDate">
+      <th mat-header-cell *matHeaderCellDef> Birth Date </th>
+      <td mat-cell *matCellDef="let user"> {{ user.birthDate }} </td>
+    </ng-container> 
+
+    <!-- Gender Column -->
+    <ng-container matColumnDef="gender">
+      <th mat-header-cell *matHeaderCellDef> Gender </th>
+      <td mat-cell *matCellDef="let user"> {{ user.gender }} </td>
+    </ng-container> 
+    
+    <!-- Register Date Column -->
+    <ng-container matColumnDef="registerDate">
+      <th mat-header-cell *matHeaderCellDef> Register Date </th>
+      <td mat-cell *matCellDef="let user"> {{ user.registerDate }} </td>
+    </ng-container> 
+
+    <!-- Modification Date Column -->
+    <ng-container matColumnDef="modificationDate">
+      <th mat-header-cell *matHeaderCellDef> Modification Date </th>
+      <td mat-cell *matCellDef="let user"> {{ user.modificationDate }} </td>
+    </ng-container> 
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef>Action</th>
+      <td mat-cell *matCellDef="let user">
+        <button mat-raised-button color="primary" class="mr-4"  (click)="openUpdateUserDialog(user)" >Edit</button>
+
+        <button mat-raised-button color="warn" class="mr-4"  (click)="openDeleteUserDialog(user)">Delete</button>
+      </td>
+    </ng-container>
+
+    <!-- Header and Row Definitions -->
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let user; columns: displayedColumns;"></tr>
+  </table>

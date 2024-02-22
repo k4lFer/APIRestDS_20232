@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bH6sE0gBRpfbAWw1dyi5j0rIeByipz/yDfWZpcFc0BEzGwABKFWciOKxy4EZJZyYYLCAP1rk+p50wwC7EvHo8Q==",
+  "success": true,
+  "projectFilePath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\1.0.HelpersLayer\\1.0.HelpersLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\kalfe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
