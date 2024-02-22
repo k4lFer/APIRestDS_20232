@@ -1,6 +1,6 @@
 export interface IUser {
     allUsers: User[];
-    insertUser: number;
+    insertUser: insertUser[];
 }
 
 export interface User {
@@ -14,4 +14,18 @@ export interface User {
     dni: string;
     birthDate: Date;
     gender: boolean;
+}
+
+export interface insertUser {
+    
+    idUser ?: string;
+    userName: string;
+    password: string;
+    firstName: string;
+    surName: string;
+    dni: string;
+    birthDate: Date | null;
+    gender: boolean;
+    //registerDate: string;
+    //modificationDate: string;
 }

@@ -1,0 +1,63 @@
+
+<div class="p-8 mt-4">
+    <div class="shadow p-6">   
+
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div class="w-full flex flex-wrap">
+        <mat-form-field class="w-full">
+            <input matInput formControlName="userName" placeholder="Username" required>
+          </mat-form-field>
+
+    </div>
+ 
+    <div class="w-full flex flex-wrap">
+    <mat-form-field class="w-full">
+      <input matInput formControlName="firstName" placeholder="First Name" required>
+    </mat-form-field>
+    </div>
+
+    <div class="w-full flex flex-wrap">
+    <mat-form-field class="w-full">
+      <input matInput formControlName="surName" placeholder="Surname" required>
+    </mat-form-field>
+    </div>
+
+    <div class="w-full flex flex-wrap"> 
+    <mat-form-field class="w-full">
+      <input matInput formControlName="dni" placeholder="DNI" required>
+    </mat-form-field>
+    </div>
+
+    <div class="w-full flex flex-wrap">   
+    <mat-form-field class="w-full">
+      <input matInput formControlName="password" placeholder="Password" required>
+    </mat-form-field>
+    </div>
+
+    <div class="w-full flex flex-wrap">   
+    <mat-form-field class="w-full">
+      <input matInput formControlName="birthDate" placeholder="Birth Date" type="date" required>
+    </mat-form-field>
+    </div>
+
+    <div class="w-full flex flex-wrap">  
+    <mat-form-field class="w-full">
+        <mat-label>Gender</mat-label>
+        <mat-select formControlName="gender" required >
+          <mat-option [value]="true">Male</mat-option>
+          <mat-option [value]="false">Female</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="felx justify-center">   
+        <button mat-raised-button color="primary"  [disabled]="!userForm.valid" type="submit">Insert User</button>
+
+    </div>
+    
+  </form>
+  
+
+</div>
+</div>
