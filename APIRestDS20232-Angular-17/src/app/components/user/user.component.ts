@@ -8,11 +8,14 @@ import { UpdateUserComponent } from '../update-user/update-user.component';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { DeleteUserComponent } from '../delete-user/delete-user.component';
+import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [MatTableModule, MatButtonModule, MatDialogContainer, MatInputModule, FormsModule],
+  imports: [MatTableModule, MatButtonModule, MatDialogContainer, MatInputModule, FormsModule, 
+            RouterLink, RouterOutlet, CommonModule],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })
@@ -40,6 +43,7 @@ export class UserComponent implements OnInit{
       this.UserList = result.allUsers;
       console.log(this.UserList);
     });
+    
   }
 
   
@@ -58,7 +62,7 @@ export class UserComponent implements OnInit{
   openDeleteUserDialog(user: any): void {
    // console.log('Valor de idUser antes de abrir el diálogo:', user.idUser);
     const dialogRef = this.dialog.open(DeleteUserComponent, {
-      width: '250px',
+      width: '350px',
       data: { idUser: user.idUser, userName: user.userName } // Pasamos la información del usuario al diálogo
     });
 

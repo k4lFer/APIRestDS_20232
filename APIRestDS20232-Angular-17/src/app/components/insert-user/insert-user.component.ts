@@ -23,7 +23,7 @@ import { MatInput } from '@angular/material/input';
 @Component({
   selector: 'app-insert-user',
   standalone: true,
-  imports: [MatInputModule, MatButtonModule, FormsModule, ReactiveFormsModule,  MatOption, MatSelectModule],
+  imports: [MatInputModule, MatButtonModule, FormsModule, ReactiveFormsModule, MatOption, MatSelectModule],
   templateUrl: './insert-user.component.html',
   styleUrl: './insert-user.component.css'
   
@@ -33,7 +33,8 @@ import { MatInput } from '@angular/material/input';
 export class InsertUserComponent{  
   formBuilder = inject(FormBuilder);
   httpService = inject(HttpService);
-    userForm = this.formBuilder.group({
+
+  userForm = this.formBuilder.group({
       userName: ['', Validators.required],
       firstName: ['', Validators.required],
       surName: ['', Validators.required],
@@ -41,8 +42,7 @@ export class InsertUserComponent{
       password : ["",Validators.required],
       birthDate: [null, Validators.required],
       gender : ["",Validators.required],
-}
-)  
+})  
   //insertUser: any[] = [];
  
   onSubmit(): void {
@@ -55,17 +55,18 @@ export class InsertUserComponent{
       password: this.userForm.value.password!,
       birthDate: this.userForm.value.birthDate ? new Date(this.userForm.value.birthDate) : null,
       gender: Boolean(this.userForm.value.gender),*/
-      formData.append('userName', this.userForm.value.userName!)
-      formData.append('firstName', this.userForm.value.firstName!);
-      formData.append('surName', this.userForm.value.surName!);
-      formData.append('dni', this.userForm.value.dni!);
-      formData.append('password', this.userForm.value.password!);
-      formData.append('birthDate', this.userForm.value.birthDate ? new Date(this.userForm.value.birthDate).toISOString() : '');
-      formData.append('gender', this.userForm.value.gender!);
+      formData.append('dtoUser.userName', this.userForm.value.userName!)
+      formData.append('dtoUser.firstName', this.userForm.value.firstName!);
+      formData.append('dtoUser.surName', this.userForm.value.surName!);
+      formData.append('dtoUser.dni', this.userForm.value.dni!);
+      formData.append('dtoUser.password', this.userForm.value.password!);
+      formData.append('dtoUser.birthDate', this.userForm.value.birthDate ? new Date(this.userForm.value.birthDate).toISOString() : '');
+      formData.append('dtoUser.gender', this.userForm.value.gender!);
    
     this.httpService.createUser(formData).subscribe(
       () => {
         console.log("Éxito");
+        console.log(formData);
       },
       (error) => {
         console.error("Error al enviar la solicitud:", error);

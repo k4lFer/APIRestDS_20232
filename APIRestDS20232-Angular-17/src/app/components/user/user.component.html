@@ -42,7 +42,7 @@
     <!-- Birth Date Column -->
     <ng-container matColumnDef="birthDate">
       <th mat-header-cell *matHeaderCellDef> Birth Date </th>
-      <td mat-cell *matCellDef="let user"> {{ user.birthDate }} </td>
+      <td mat-cell *matCellDef="let user" > {{ user.birthDate | date:'d/M/y'}} </td>
     </ng-container> 
 
     <!-- Gender Column -->
@@ -54,13 +54,13 @@
     <!-- Register Date Column -->
     <ng-container matColumnDef="registerDate">
       <th mat-header-cell *matHeaderCellDef> Register Date </th>
-      <td mat-cell *matCellDef="let user"> {{ user.registerDate }} </td>
+      <td mat-cell *matCellDef="let user"> {{ user.registerDate | date:'d/M/y, h:mm a'}} </td>
     </ng-container> 
 
     <!-- Modification Date Column -->
     <ng-container matColumnDef="modificationDate">
       <th mat-header-cell *matHeaderCellDef> Modification Date </th>
-      <td mat-cell *matCellDef="let user"> {{ user.modificationDate }} </td>
+      <td mat-cell *matCellDef="let user"> {{ user.modificationDate | date:'d/M/y, h:mm a'}} </td>
     </ng-container> 
 
     <ng-container matColumnDef="action">

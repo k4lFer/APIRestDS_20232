@@ -6,6 +6,9 @@ namespace _5._0.DataAccessLayer.Connection
     public class DataBaseContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DataBaseContext() { 
+            InitAutoMapper.start();
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().ToTable("tuser");

@@ -5,7 +5,8 @@ namespace _4._0.RepositoryLayer.Repository
 {
     public interface RepoUser : RepoGeneric<DtoUser> {
         public List<DtoUser> getAll();
-
+        public DtoUser getByUsername(string username);
+        public DtoUser getByDni(string dni);
 
     }
    

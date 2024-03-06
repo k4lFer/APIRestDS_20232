@@ -1,4 +1,6 @@
-﻿using _0._0.DataTransferLayer.Objects;
+﻿using _0._0.DataTransferLayer.ObjectOther;
+using _0._0.DataTransferLayer.Objects;
+using _2._0.ServiceLayer.Generic;
 using _2._0.ServiceLayer.ServiceObject;
 using _3._0.BusinessLayer.Business.User;
 using _5._0.DataAccessLayer.Entities;
@@ -8,30 +10,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace _2._0.ServiceLayer.Controllers
 {
     [Route("[controller]")]
-    public class UserController : Controller
+    public class UserController : ControllerGeneric<BusinessUser, SoUser>
     {
-
-        BusinessUser _businessUser = null;
-        SoUser _soUser = null;
-
-        public UserController()
-        {
-            _soUser = new();
-            _businessUser = new();
-
-        }
-
 
         [HttpGet]
         [Route("[action]")]
-         
-            public ActionResult<SoUser> GetById(string idUser)
-            {
-
-                _soUser.dtoUser = _businessUser.getById(idUser);
-
-                return _soUser;
-            }
+        public ActionResult<SoUser> GetById(string idUser)
+        {
+            (_so.mo, _so.dtoUser) = _business.getById(idUser);
+            return _so;
+        }
 
 
         [HttpGet]
@@ -39,36 +27,80 @@ namespace _2._0.ServiceLayer.Controllers
         public ActionResult<SoUser> GetAll()
         {   
 
-            _soUser.allUsers = _businessUser.getAll();
-
-            return _soUser;
+            (_so.mo, _so.allUsers) = _business.getAll();
+            return _so;
         }
 
         [HttpPost]
         [Route("[action]")]
-        public ActionResult<SoUser> InsertUser(DtoUser insertUser)
+        public ActionResult<SoUser> InsertUser(SoUser so)
         {
-            _soUser.InsertUser = _businessUser.insert(insertUser);
-
-            return _soUser;
+            try
+            {
+                _so.mo = ValidatePartDto(so.dtoUser, new string[]
+                {
+                "userName",
+                "password",
+                "firstName",
+                "surName",
+                "dni",
+                "birthdate",
+                "gender",
+                });
+                if (_so.mo.exsistsMessage())
+                {
+                    return _so;
+                }
+                _so.mo = _business.insert(so.dtoUser);
+               // return _so;
+            }
+            catch(Exception ex)
+            {
+                _so.mo.listMessage.Add(ex.Message);
+                _so.mo.exception();
+            }
+            return _so;
         }
 
         [HttpDelete]
         [Route("[action]")]
-        public ActionResult<SoUser> DeleteUser(string id)
+        public ActionResult<SoUser> DeleteUser(string idUser)
         {
-            _soUser.DeleteUser = _businessUser.delete(id);
+            _so.mo = _business.delete(idUser);
 
-            return _soUser;
+            return _so;
         }
 
         [HttpPut]
         [Route("[action]")]
-        public ActionResult<SoUser> UpdateUser(DtoUser updateUser)
+        public ActionResult<SoUser> UpdateUser(SoUser so)
         {
-            _soUser.UpdateUser = _businessUser.update(updateUser);
+            try
+            {
+                _so.mo = ValidatePartDto(so.dtoUser, new string[] {
+                    "idUser",
+                    "username",
+                    "firstName",
+                    "surName",
+                    "dni",
+                    "birthDate",
+                    "gender"
+                });
 
-            return _soUser;
+                if (_so.mo.exsistsMessage())
+                {
+                    return _so;
+                }
+
+                _so.mo = _business.update(so.dtoUser);
+            }
+            catch (Exception ex)
+            {
+                _so.mo.listMessage.Add(ex.Message);
+                _so.mo.exception();
+            }
+
+            return _so;
         }
     }
 }

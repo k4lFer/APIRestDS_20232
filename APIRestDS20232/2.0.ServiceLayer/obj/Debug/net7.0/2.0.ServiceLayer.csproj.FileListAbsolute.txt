@@ -162,3 +162,4 @@ D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRes
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.ServiceLayer.genruntimeconfig.cache
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\ref\2.0.ServiceLayer.dll
 D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\obj\Debug\net7.0\2.0.Serv.2F3E40E2.Up2Date
+D:\Escritorio\Semestre 2023-2\Desarrollo de Software 2\Visual Studio 2022\APIRestDS_20232\APIRestDS20232\2.0.ServiceLayer\bin\Debug\net7.0\AutoMapper.dll
