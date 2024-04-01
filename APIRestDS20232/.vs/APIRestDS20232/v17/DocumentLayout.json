@@ -3,79 +3,123 @@
   "WorkspaceRootPath": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|d:\\escritorio\\semestre 2023-2\\desarrollo de software 2\\visual studio 2022\\apirestds_20232\\apirestds20232\\3.0.businesslayer\\business\\user\\businessuservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.datatransferlayer\\objectother\\dtomessageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|solutionrelative:0.0.datatransferlayer\\objectother\\dtomessageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\generic\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\generic\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\query\\quser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\query\\quser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|d:\\escritorio\\semestre 2023-2\\desarrollo de software 2\\visual studio 2022\\apirestds_20232\\apirestds20232\\2.0.servicelayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\serviceobject\\souser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\serviceobject\\souser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.datatransferlayer\\objects\\dtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|solutionrelative:0.0.datatransferlayer\\objects\\dtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\connection\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\connection\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.repositorylayer\\repository\\repouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|solutionrelative:4.0.repositorylayer\\repository\\repouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\generic\\controllergeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\generic\\controllergeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\initautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\initautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\business\\user\\businessuservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuservalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuserdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\business\\user\\businessuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.businesslayer\\generic\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1F2C14-A2F4-4583-9677-DE77340249B6}|3.0.BusinessLayer\\3.0.BusinessLayer.csproj|solutionrelative:3.0.businesslayer\\generic\\businessgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.datatransferlayer\\objectother\\dtomessageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|solutionrelative:0.0.datatransferlayer\\objectother\\dtomessageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.datatransferlayer\\objects\\dtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D7609DE-FF24-414A-AF7A-0A9D67B2E2A4}|0.0.DataTransferLayer\\0.0.DataTransferLayer.csproj|solutionrelative:0.0.datatransferlayer\\objects\\dtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\generic\\sogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\generic\\sogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\serviceobject\\souser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\serviceobject\\souser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\query\\quser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\query\\quser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.repositorylayer\\repository\\repouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|solutionrelative:4.0.repositorylayer\\repository\\repouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.repositorylayer\\generic\\repogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|solutionrelative:4.0.repositorylayer\\generic\\repogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\generic\\sogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\generic\\sogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.dataaccesslayer\\initautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C068FC53-6734-49C1-8AB3-57530EBDFD13}|5.0.DataAccessLayer\\5.0.DataAccessLayer.csproj|solutionrelative:5.0.dataaccesslayer\\initautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23A86B35-415D-4C9F-97B8-C5332E6589A8}|2.0.ServiceLayer\\2.0.ServiceLayer.csproj|solutionrelative:2.0.servicelayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.repositorylayer\\repository\\repocomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF00C60E-7C24-4BE7-A012-7E5C29F095A9}|4.0.RepositoryLayer\\4.0.RepositoryLayer.csproj|solutionrelative:4.0.repositorylayer\\repository\\repocomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 160,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 16,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BusinessUser.cs",
+              "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "RelativeDocumentMoniker": "3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "RelativeToolTip": "3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T23:47:37.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Program.cs",
+              "RelativeDocumentMoniker": "2.0.ServiceLayer\\Program.cs",
+              "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Program.cs",
+              "RelativeToolTip": "2.0.ServiceLayer\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T00:41:54.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepoComment.cs",
+              "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.RepositoryLayer\\Repository\\RepoComment.cs",
+              "RelativeDocumentMoniker": "4.0.RepositoryLayer\\Repository\\RepoComment.cs",
+              "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.RepositoryLayer\\Repository\\RepoComment.cs",
+              "RelativeToolTip": "4.0.RepositoryLayer\\Repository\\RepoComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T22:47:32.293Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 14,
@@ -90,55 +134,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "InitAutoMapper.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\InitAutoMapper.cs",
               "RelativeDocumentMoniker": "5.0.DataAccessLayer\\InitAutoMapper.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\InitAutoMapper.cs",
               "RelativeToolTip": "5.0.DataAccessLayer\\InitAutoMapper.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T00:04:26.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "BusinessGeneric.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Generic\\BusinessGeneric.cs",
               "RelativeDocumentMoniker": "3.0.BusinessLayer\\Generic\\BusinessGeneric.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Generic\\BusinessGeneric.cs",
               "RelativeToolTip": "3.0.BusinessLayer\\Generic\\BusinessGeneric.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T23:22:02.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "DataBaseContext.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Connection\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "5.0.DataAccessLayer\\Connection\\DataBaseContext.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Connection\\DataBaseContext.cs",
               "RelativeToolTip": "5.0.DataAccessLayer\\Connection\\DataBaseContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAC2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T21:43:29.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Entities\\User.cs",
               "RelativeDocumentMoniker": "5.0.DataAccessLayer\\Entities\\User.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Entities\\User.cs",
               "RelativeToolTip": "5.0.DataAccessLayer\\Entities\\User.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBEAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T20:18:03.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "SoGeneric.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Generic\\SoGeneric.cs",
               "RelativeDocumentMoniker": "2.0.ServiceLayer\\Generic\\SoGeneric.cs",
@@ -150,52 +194,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "ControllerGeneric.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Generic\\ControllerGeneric.cs",
               "RelativeDocumentMoniker": "2.0.ServiceLayer\\Generic\\ControllerGeneric.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Generic\\ControllerGeneric.cs",
               "RelativeToolTip": "2.0.ServiceLayer\\Generic\\ControllerGeneric.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T23:28:46.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "DtoMessageObject.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.DataTransferLayer\\ObjectOther\\DtoMessageObject.cs",
               "RelativeDocumentMoniker": "0.0.DataTransferLayer\\ObjectOther\\DtoMessageObject.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.DataTransferLayer\\ObjectOther\\DtoMessageObject.cs",
               "RelativeToolTip": "0.0.DataTransferLayer\\ObjectOther\\DtoMessageObject.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA5wAwAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T00:32:58.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "SoUser.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\ServiceObject\\SoUser.cs",
               "RelativeDocumentMoniker": "2.0.ServiceLayer\\ServiceObject\\SoUser.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\ServiceObject\\SoUser.cs",
               "RelativeToolTip": "2.0.ServiceLayer\\ServiceObject\\SoUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T00:02:51.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BusinessUserValidation.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUserValidation.cs",
               "RelativeDocumentMoniker": "3.0.BusinessLayer\\Business\\User\\BusinessUserValidation.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUserValidation.cs",
               "RelativeToolTip": "3.0.BusinessLayer\\Business\\User\\BusinessUserValidation.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACAAAAANAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T23:59:32.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-27T23:59:32.598Z"
             },
             {
               "$type": "Document",
@@ -211,61 +254,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "RepoUser.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.RepositoryLayer\\Repository\\RepoUser.cs",
               "RelativeDocumentMoniker": "4.0.RepositoryLayer\\Repository\\RepoUser.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\4.0.RepositoryLayer\\Repository\\RepoUser.cs",
               "RelativeToolTip": "4.0.RepositoryLayer\\Repository\\RepoUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T23:54:14.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "DtoUser.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.DataTransferLayer\\Objects\\DtoUser.cs",
               "RelativeDocumentMoniker": "0.0.DataTransferLayer\\Objects\\DtoUser.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\0.0.DataTransferLayer\\Objects\\DtoUser.cs",
               "RelativeToolTip": "0.0.DataTransferLayer\\Objects\\DtoUser.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA4wBsAAACxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T23:43:02.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BusinessUser.cs",
-              "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
-              "RelativeDocumentMoniker": "3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
-              "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
-              "RelativeToolTip": "3.0.BusinessLayer\\Business\\User\\BusinessUser.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAApwD8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T23:47:37.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "2.0.ServiceLayer\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\2.0.ServiceLayer\\Controllers\\UserController.cs",
               "RelativeToolTip": "2.0.ServiceLayer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAIAwwF4AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswCcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T01:18:01.862Z"
+              "WhenOpened": "2024-02-21T01:18:01.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "QUser.cs",
               "DocumentMoniker": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Query\\QUser.cs",
               "RelativeDocumentMoniker": "5.0.DataAccessLayer\\Query\\QUser.cs",
               "ToolTip": "D:\\Escritorio\\Semestre 2023-2\\Desarrollo de Software 2\\Visual Studio 2022\\APIRestDS_20232\\APIRestDS20232\\5.0.DataAccessLayer\\Query\\QUser.cs",
               "RelativeToolTip": "5.0.DataAccessLayer\\Query\\QUser.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowFAAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T01:14:13.077Z"
             }

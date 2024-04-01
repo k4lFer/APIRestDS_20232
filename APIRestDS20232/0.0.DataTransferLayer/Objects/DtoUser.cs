@@ -24,13 +24,11 @@ namespace _0._0.DataTransferLayer.Objects
         [RegularExpression("^[0-9]{8}$", ErrorMessage = "El formato del campo \"dni\" no es correcto.")]
         public string dni { get; set; }
 
-        [Required(ErrorMessage = "El campo \"birthDate\"es requerido.")]
-        //[RegularExpression("^(19|20)\\d{2}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[01])$", ErrorMessage = "El formato del \"birthDate\" no es correcto"), DataType(DataType.Date)]
-        //[DataType(DataType.Date, ErrorMessage = "El formato del \"birthDate\"  DATE no es correcto")]
-        //[DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}")]
+        [Required(ErrorMessage = "El campo \"birthDate\" es requerido.")]
+        [DataType(DataType.Date)]
         public DateTime birthDate { get; set; }
 
-        [Required(ErrorMessage = "El campo \"gender\"es requerido.")]
+        [Required(ErrorMessage = "El campo \"gender\" es requerido.")]
         public bool gender { get; set; }
 
     }

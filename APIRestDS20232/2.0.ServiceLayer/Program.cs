@@ -7,6 +7,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(p => p.AddPolicy("AllowAnyOrigin", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,8 +27,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+//app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-
+app.UseCors("AllowAnyOrigin");
 
 app.Run();

@@ -44,15 +44,15 @@ namespace _2._0.ServiceLayer.Controllers
                 "firstName",
                 "surName",
                 "dni",
-                "birthdate",
+                "birthDate",
                 "gender",
+              
                 });
                 if (_so.mo.exsistsMessage())
                 {
                     return _so;
                 }
                 _so.mo = _business.insert(so.dtoUser);
-               // return _so;
             }
             catch(Exception ex)
             {
