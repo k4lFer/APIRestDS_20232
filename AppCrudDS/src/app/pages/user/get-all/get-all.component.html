@@ -1,0 +1,33 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre de usuario</th>
+            <th>Nombre Completo</th>
+            <th>Fecha de nacimiento</th>
+            <th>N° DNI</th>
+            <th>Genero</th>
+            <th>Fecha Registro</th>
+            <th>Fecha Modificacion</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let value of listUser">
+            <td>{{value.userName}}</td>
+            <td>{{value.firstName + ' '+value.surName}}</td>
+            <td>{{value.birthDate}}</td>
+            <td>{{value.dni}}</td>
+            <td>{{value.gender}}</td>
+            <td>{{value.registerDate}}</td>
+            <td>{{value.modificationDate}}</td>
+            <td>
+                <button type="submit" class="btn btn-danger" (click)="deleteUser(value.idUser)" >Eliminar</button>
+                <button type="submit" class="btn btn-primary" (click)="editUser(value)" >Editar</button>
+                <button type="submit" class="btn btn-info" (click)="showUser(value.idUser)" >Info</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+

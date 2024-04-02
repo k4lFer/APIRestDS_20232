@@ -1,0 +1,10 @@
+<div *ngFor="let error of messages" class="alert" [ngClass]="{
+  'alert-danger': error.type === 'error',
+  'alert-warning': error.type === 'warning',
+  'alert-info': error.type === 'info',
+  'alert-success': error.type === 'success'
+ }" role="alert">
+  {{ error.message }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+ </div>
+ 
